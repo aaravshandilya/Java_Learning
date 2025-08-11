@@ -1,4 +1,5 @@
-public class week2Day4 {
+package Week2;
+public class week2Day1 {
    public static void main(String[] args)  {
         //System.out.println("Hello World!");
         int $one = 5;
@@ -26,6 +27,7 @@ public class week2Day4 {
         System.out.println(num);
         System.out.println((char)(num));
         System.out.println((int)ch);
+        
     }
 }
 
