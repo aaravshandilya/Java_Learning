@@ -27,6 +27,12 @@ public class week2Day1 {
         System.out.println(num);
         System.out.println((char)(num));
         System.out.println((int)ch);
+        /*Charecter and Integer Cnversion
+        Ascii value of 'c' is 99
+        Integer value with Charecter will give the Ascii value
+        Integer value with Charecter will give the Charecter
+        */
+
         
     }
 }
