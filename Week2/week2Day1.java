@@ -1,7 +1,7 @@
 package Week2;
 public class week2Day1 {
+    //Day 1: Monday 8/11/2025
    public static void main(String[] args)  {
-        //System.out.println("Hello World!");
         int $one = 5;
         System.out.println($one);
         String c = "25";
