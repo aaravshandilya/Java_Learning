@@ -4,7 +4,8 @@ public class ProjectSTEM_Assignments {
     public static void main(String[] args) {
         //Assignments for Project STEM Code here
         Scanner scan = new Scanner(System.in);
-        scan.nextLine()
-        
+        String food = scan.nextLine();
+        System.out.println("I like to eat " + food + " as well!");
+
     }
 }
