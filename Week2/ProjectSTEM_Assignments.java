@@ -22,5 +22,25 @@ public class ProjectSTEM_Assignments {
         String stateInput = nameScan.nextLine();
         System.out.println("My name is " + nameInput + ". I live in " + stateInput + ".");
 
+        Scanner doubleScan = new Scanner(System.in);
+        double num1 = doubleScan.nextDouble();
+        double num2 = doubleScan.nextDouble();
+        double num3 = doubleScan.nextDouble();
+        System.out.println(num3 + " " + num2 + " " + num1);
+        
+        Scanner namescScanner = new Scanner(System.in);
+        System.out.println("Hi there. What is your name?" );
+        String nameInput2 = namescScanner.nextLine();
+        System.our.println("Hi " + nameInput2 + " How old are you?");
+        int age = namescScanner.nextInt();
+        System.out.println(nameInput2 + " is " + age + " years old.");
+
+        System.out.println("Java is an object-oriented programming language, true or false?");
+        Scanner booleanScanner = new Scanner(System.in);
+        boolean isJavaOOP = booleanScanner.nextBoolean();
+        System.out.println("There are only 2 possible values which can be held by a boolean variable, true or false?");
+        boolean isBooleanTrueFalse = booleanScanner.nextBoolean();
+        System.out.println("Question 1- Your answer: " + isJavaOOP + ". Correct answer: true");
+        System.out.println("Question 2- Your answer: " + isBooleanTrueFalse + ". Correct answer: true");
     }
 }
