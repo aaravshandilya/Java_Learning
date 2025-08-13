@@ -42,5 +42,22 @@ public class ProjectSTEM_Assignments {
         boolean isBooleanTrueFalse = booleanScanner.nextBoolean();
         System.out.println("Question 1- Your answer: " + isJavaOOP + ". Correct answer: true");
         System.out.println("Question 2- Your answer: " + isBooleanTrueFalse + ". Correct answer: true");
+
+        Scanner num1Scanner = new Scanner(System.in);
+        System.out.println("Enter a starting number (must be and integer)");
+        int startNum = num1Scanner.nextInt();
+        startNum++;
+        System.out.println("number is now "   + startNum);
+        startNum++;
+        System.out.println("number is now "   + startNum);
+        startNum++;
+        System.out.println("number is now "   + startNum);
+        startNum--;
+        System.out.println("number is now "   + startNum);
+        startNum--;
+        System.out.println("number is now "   + startNum);
+        startNum--;
+        System.out.println("number is now "   + startNum);
+
     }
 }
